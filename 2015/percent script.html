@@ -1,0 +1,21 @@
+
+<div align="center">
+    <img src="2015/1.png" alt=""/> <br/>
+    <form name="formx">
+        <span style="color: Red;">لحساب النسبة المئوية :</span> <input type="text" name="a" value="المجموع" size="4" /> <input type="button" onclick="a_div_b(this.form)" value="press here"/> <input type="number" name="b" value="4.1" size="4" /> = <input type="" size="20" name="ans" value="0" "number"="" />
+    </form><script language="JavaScript">
+
+    function a_div_b(form) {
+        a=eval(form.a.value)
+        b=eval(form.b.value)
+        c=a/b
+        form.ans.value = c
+    }
+    function a_pow_b(form) {
+        a=eval(form.a.value)
+        b=eval(form.b.value)
+        c=Math.pow(a, b)
+        form.ans.value = c
+    }
+    // End -->
+</script>
